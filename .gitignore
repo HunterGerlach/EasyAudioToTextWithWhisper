@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+EasyAudioToTextWithWhisper.egg-info/
+
+# Logs
+*.log
+
+# Directories for chunks and transcriptions
+chunks_dir/
+transcripts_dir/
+youtube_downloads/
+
+# Transcription result
+*.txt
+
+# Cipher for pytub until it is fixed
+cipher.py
+
+# test files
+learn-in-podcast__the-rise-of-the-ai-engine.mp3
+
+# Jupyter notebook
+.ipynb_checkpoints/
